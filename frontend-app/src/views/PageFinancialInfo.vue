@@ -16,7 +16,7 @@
               <div v-if="isAccessiable === false">
                 <div>
                   <i class="bi bi-person-fill-lock"></i>
-                  Sorry, '{{ userName }}' are not allowed to access '{{ api_gate }}'.
+                  Sorry, '{{ userName }}' is not allowed to access '{{ api_gate }}'.
                 </div>
                 <br>
                 <div style="margin-right: 415px">

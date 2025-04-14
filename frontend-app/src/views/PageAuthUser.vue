@@ -16,10 +16,10 @@
               <div v-if="isAccessiable === false">
                 <div>
                   <i class="bi bi-person-fill-lock"></i>
-                  Sorry, '{{ userName }}' are not allowed to access '{{ api_gate }}'.
+                  Sorry, '{{ userName }}' is not allowed to access '{{ api_gate }}'.
                 </div>
                 <br>
-                <div style="margin-right: 390px">
+                <div style="margin-right: 370px">
                   <router-link :to="{ name: 'home' }"><i class="bi bi-house-fill"></i>&nbsp;&nbsp;Home</router-link>
                 </div>
               </div>

@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: img_vue_echarts:v01 
+    container_name: vue-echarts
+    ports:
+      - "8081:81"          

@@ -18,8 +18,10 @@ a_working_dir/
 
 
 # Ignore folders of this project
-/app_vue/node_modules
-/app_vue/public
-/app_vue/src/assets/bootstrap
-/app_vue/src/assets/bootstrap-icons
+/frontend-app/node_modules
+/frontend-app/public
+/frontend-app/src/assets/img
+/frontend-app/src/assets/bootstrap
+/frontend-app/src/assets/bootstrap-icons
+clean_docker.py
 

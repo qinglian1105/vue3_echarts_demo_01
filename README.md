@@ -23,11 +23,12 @@ This interactive plot website has side-menu with five options. Only 4 options wi
 
 __● Option -  Home__<br>
 
-Just a simple explanation and tree chart for the content of this website.<br>
+Just a simple explanation and tree chart for looking through the content of this website.<br>
 
 __● Option - Financial Info (ETF)__<br>
 
-Originally, 8 tabs were expected, but they all used the same method, so only 2 are listed for now.<br>
+Originally, 8 tabs were expected, but they all used the same method, so only 2 are listed for now. If interested, please refer to the project  [[dash_plotly_demo_01](<https://github.com/qinglian1105/dash_plotly_demo_01>)].<br>
+
 (1)Introduction: just a brief description about this study.<br>
 (2)Overview: a dashboard with metrics, charts, and table.<br>
 
@@ -75,7 +76,7 @@ Path: /login<br>
 ![avatar](./README_png/page_login.png)
 <br><br>
 
-The message of alert after submitting is wrong password or incorrect username.<br>
+The message of "Alert" after submitting is wrong password or incorrect username.<br>
 
 ![avatar](./README_png/page_login_check.png)
 <br><br>
@@ -135,7 +136,7 @@ Take an example. The upper right corner of the picture below shows that login us
 <br><br>
 
 
-__The above offers an interactive plot website or data visualization platform with Vue3, ECharts,FastAPI and n8n for investment statistics.__ <br>
+__The above offers an interactive plot website or data visualization platform with Vue3, ECharts, FastAPI and n8n for investment statistics.__ <br>
 
 <br>
 
