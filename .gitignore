@@ -24,8 +24,8 @@ a_working_dir/
 /frontend-app/src/assets/img
 /frontend-app/src/assets/bootstrap
 /frontend-app/src/assets/bootstrap-icons
-/frontend-app/jsconfig.json
-/frontend-app/package-lock.json
-/frontend-app/eslint.config.js
+/frontend-app/src/jsconfig.json
+/frontend-app/src/package-lock.json
+/frontend-app/src/eslint.config.js
 clean_docker.py
 
