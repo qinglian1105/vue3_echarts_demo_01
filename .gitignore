@@ -5,6 +5,7 @@
 # Ignore folder_working
 folder_working/
 00_working/
+00_working_dir/
 00_work_dir/
 a_working_dir/
 
@@ -23,5 +24,8 @@ a_working_dir/
 /frontend-app/src/assets/img
 /frontend-app/src/assets/bootstrap
 /frontend-app/src/assets/bootstrap-icons
+/frontend-app/jsconfig.json
+/frontend-app/package-lock.json
+/frontend-app/eslint.config.js
 clean_docker.py
 

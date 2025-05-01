@@ -3,18 +3,20 @@
     let thead = ''
     let trs = []    
     thead = Object.keys(input_from_api[0])
+    thead.push('Actions')
+    thead[0] = 'Id'
     trs = []
     for (let i = 0; i < input_from_api.length; i++) {
     let tr = [
         input_from_api[i]['id'],
-        input_from_api[i]['Useranme'],
+        input_from_api[i]['Username'],
         input_from_api[i]['Password'],
         input_from_api[i]['Authority (accessible pages)'],
         input_from_api[i]['Create_time'],
         input_from_api[i]['Update_time'],       
     ]
     trs.push(tr)    
-    }
+    }    
     return { thead: thead, trs: trs }
   }
   

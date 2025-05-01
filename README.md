@@ -111,7 +111,7 @@ As mentioned above, this option is the statistics of top equity ETFs in Taiwan.<
 ![avatar](./README_png/page_fin_info_introduction.png)
 <br><br>
 
-(2)Overview: a date picker to choose date for metrics, charts and tables.<br>
+(2)Overview: a dashboard has a date picker to choose date for metrics, charts and tables.<br>
 
 ![avatar](./README_png/page_fin_info_overview.png)
 <br><br>
@@ -128,6 +128,21 @@ __● Option - Auth (users)__ <br>
 This is user management. Only authorized personnel can add new users, remove users, update information of users. Besides, Using 'Update' to revise the content of coloum 'Authority' can control users for accessible pages. <br>
 
 ![avatar](./README_png/page_auth_user.png)
+<br><br>
+
+Click the button "New Add" to add new user.
+
+![avatar](./README_png/page_auth_add_user.png)
+<br><br>
+
+Click the icon "Pen" to edit user information.
+
+![avatar](./README_png/page_auth_edit_user.png)
+<br><br>
+
+Click the icon "Trash can" to delete user information.
+
+![avatar](./README_png/page_auth_delete_user.png)
 <br><br>
 
 Take an example. The upper right corner of the picture below shows that login user is stuff, so he or she cannot access unauthorized pages according to the setting of column "Authority" in table - users.  <br>

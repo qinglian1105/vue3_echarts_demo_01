@@ -23,12 +23,12 @@ import { useRouter } from 'vue-router';
 import { useUserStore } from '@/stores/user';
 import axios from "axios";
 
-const username = ref('');
-const password = ref('');
+const username = ref('admin');
+const password = ref('321');
 const router = useRouter();
 const userStore = useUserStore();
 const errorMessage = ref('');
-const user_api_url = 'http://localhost:5005/api'
+const user_api_url = 'http://localhost:5009/api'
 
 
 async function handleLogin() {
