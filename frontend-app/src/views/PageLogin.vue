@@ -23,8 +23,8 @@ import { useRouter } from 'vue-router';
 import { useUserStore } from '@/stores/user';
 import axios from "axios";
 
-const username = ref('admin');
-const password = ref('321');
+const username = ref('');
+const password = ref('');
 const router = useRouter();
 const userStore = useUserStore();
 const errorMessage = ref('');
